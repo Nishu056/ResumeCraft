@@ -1,0 +1,52 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding: 0.25rem 0.75rem;
+    z-index: 50;
+    gap: 12px;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid #d1d5db;
+    background-color: #f9fafb;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+    object-fit: contain;
+}
+
+.fields {
+    border: 1px solid #d1d5db;
+    padding: 0.25rem 1rem;
+    border-radius: 0.375rem;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.field {
+    flex: 1;
+    height: 2rem;
+    background: transparent;
+    font-weight: bold;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+}
+
+.logout-btn {
+    padding: 8px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.logout-btn:hover {
+    background-color: #e60000;
+}

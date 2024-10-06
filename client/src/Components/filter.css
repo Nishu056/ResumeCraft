@@ -1,0 +1,47 @@
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.tag {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    gap: 1.5rem;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.tags {
+    border: 1px solid #d1d5db;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+    transition: box-shadow 0.3s ease;
+    background-color: white;
+}
+
+.tags:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.display {
+    font-size: 0.875rem;
+    color: #333333;
+    white-space: nowrap;
+    transition: color 0.3s ease;
+}
+
+.group:hover .display {
+    color: #000000;
+}
+
+.tags.selected {
+    background-color: #f0f0f0;
+}
